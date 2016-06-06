@@ -1,0 +1,25 @@
+INSERT INTO users VALUES(1,TRUE,localtimestamp,localtimestamp,'email@poczta.pl','Jan','Kowalski','haslo',1);
+INSERT INTO users VALUES(2,TRUE,localtimestamp,localtimestamp,'email2@poczta.pl','Mirek','Nowak','qwerty',0);
+
+INSERT INTO priorytety VALUES(1,localtimestamp,localtimestamp,10,0,0);
+INSERT INTO priorytety VALUES(2,localtimestamp,localtimestamp,2,0,1);
+INSERT INTO priorytety VALUES(3,localtimestamp,localtimestamp,5,1,2);
+INSERT INTO priorytety VALUES(4,localtimestamp,localtimestamp,2,1,3);
+
+INSERT INTO projekty VALUES(1,localtimestamp,localtimestamp,'Projekt 1','Opis projektu pierwszego.','1.0.2');
+INSERT INTO projekty VALUES(2,localtimestamp,localtimestamp,'Projekt 2','Opis projektu drugiego.','1.1.1');
+INSERT INTO projekty VALUES(3,localtimestamp,localtimestamp,'Projekt 3','Opis projektu trzeciego.','1.0.0');
+INSERT INTO projekty VALUES(4,localtimestamp,localtimestamp,'Projekt 4','Opis projektu czwartego.','2.3');
+INSERT INTO projekty VALUES(5,localtimestamp,localtimestamp,'Projekt 5','Opis projektu pi¹tego.','1.8.74');
+INSERT INTO projekty VALUES(6,localtimestamp,localtimestamp,'Projekt 6','Opis projektu szóstego.','1.0.0');
+
+INSERT INTO projekty_users VALUES(1,1);
+INSERT INTO projekty_users VALUES(2,1);
+INSERT INTO projekty_users VALUES(5,1);
+INSERT INTO projekty_users VALUES(6,1);
+INSERT INTO projekty_users VALUES(3,2);
+INSERT INTO projekty_users VALUES(4,2);
+
+
+
+
